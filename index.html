@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+	
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide one">
+      	<div class="top ani" swiper-animate-effect="slideInRight" swiper-animate-duration="0.8s" >
+      		<img src="img/one.jpg"/>
+      	</div>
+      	<div class="center">
+      		<img src="img/jiezhi.png" class="ring ani" alt="" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.3s" swiper-animate-delay="0.6s"/>
+      		<img src="img/womenjiehunla.png" class="marry ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s" alt="" />
+      	</div>
+      	<div class="bottom">
+      		<div class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s">2017</div>
+      		<div class="ani" swiper-animate-effect="flash" swiper-animate-duration="0.5s" swiper-animate-delay="2.2s">.</div>
+      		<div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="2.6s">12</div>
+      		<div class="ani" swiper-animate-effect="flash" swiper-animate-duration="0.5s" swiper-animate-delay="2.8s">.</div>
+      		<div class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="3.2s">30</div>
+      	</div>
+      </div>
+      <div class="swiper-slide two">
+      	<div class="top ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s">
+      		<img src="img/two_top.jpg"/>
+      	</div>
+      	<div class="center ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2.3s">
+      		<img src="img/two_center.jpg" alt="" />
+      	</div>
+      	<div class="bottom ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+      		<img src="img/two_bottom.jpg"/>
+      	</div>
+      </div>
+      <div class="swiper-slide three">
+      	<div class="tu ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s">
+      	</div>
+      	<div class="zi">
+      		<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s" src="img/1.png" alt="" />
+      		<img class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="1.5s" swiper-animate-delay="3.0s" src="img/2.png" alt="" />
+      	</div>
+      </div>
+      <div class="swiper-slide">Slide 4</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  
+  <!--音乐开始-->
+  <div id="music">
+  	<img class="music_bg" src="img/music.gif"/>
+  	<img class="music_tu" src="img/music_off.png"/>
+  	<audio src="img/bgmusic.mp3" autoplay loop></audio>
+  </div>
+  <!--音乐结束-->
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.animate1.0.2.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
